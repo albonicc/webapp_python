@@ -1,9 +1,17 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<div class= intro_profile>
-    <h1><strong>Who am I?</strong></h1>
-    <img class="img-responsive" src="../static/images/img1.png"" alt="Profile picture">
+<div class="about" style="color: white;">
+    <div class="header" style="display:inline-block;">        
+        <h1><strong>Who am I?</strong></h1>
+    </div>  
+    <div class="profile image and text" style="display:flex;">
+        <img class="img-responsive" src="../static/images/img1.png"" alt="Profile picture" 
+            height="300px" width="300px" style="padding-right: 15px;"> 
+        <p>I'm just a 🇲🇽 guy who is 1 standard deviation away of the average Mexican. I have 2
+            big passions in life: Engineering and Marketing. 
+        </p>
+    </div>
 </div>
 
 {% endblock %}
